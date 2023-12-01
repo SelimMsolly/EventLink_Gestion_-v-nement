@@ -1,0 +1,32 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #6B00D7, #A230ED, #c364fa,  #d391fa);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #6B00D7, #A230ED, #c364fa, #d391fa);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+    /* styles.css (or your preferred CSS file) */
+.custom-btn {
+    color: purple; /* Set text color to purple */
+    border-color: #c364fa; /* Set border color to purple */
+  }
+  
+  .custom-btn:hover {
+    background-color: #c364fa; /* Set background color to purple on hover */
+    color: white; /* Set text color to white on hover for better visibility */
+  }
