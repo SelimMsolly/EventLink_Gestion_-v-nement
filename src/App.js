@@ -1,6 +1,6 @@
 import React from 'react';
 import LoginForm from './Components/Front/login.jsx';
-import RegistrationForm from './Components/Front/registration';
+import RegistrationForm from './Components/Front/registration.jsx';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './Components/Front/home.jsx';
 
